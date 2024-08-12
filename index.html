@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+    <link rel="shortcut icon" href="./assets/images/apple/애플파비콘.png" type="image/x-icon">
+    <link rel="icon" href="./assets/images/apple/애플파비콘.png" type="image/x-icon">
+
+  
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.3/dist/lenis.min.js"></script> 
+    <script src="./assets/js/custom.js"></script>
+    <!-- <script src="./assets/js/jquery-3.7.1.min.js"></script> -->
+    <!-- <script src="./assets/js/swiper-bundle.min.js"></script> -->
+    
+</head>
+<body>
+
+<header id="header">
+
+    <h1 class="logo">
+        <a href="">
+             <svg height="44" viewBox="0 0 14 44" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m13.0729 17.6825a3.61 3.61 0 0 0 -1.7248 3.0365 3.5132 3.5132 0 0 0 2.1379 3.2223 8.394 8.394 0 0 1 -1.0948 2.2618c-.6816.9812-1.3943 1.9623-2.4787 1.9623s-1.3633-.63-2.613-.63c-1.2187 0-1.6525.6507-2.644.6507s-1.6834-.9089-2.4787-2.0243a9.7842 9.7842 0 0 1 -1.6628-5.2776c0-3.0984 2.014-4.7405 3.9969-4.7405 1.0535 0 1.9314.6919 2.5924.6919.63 0 1.6112-.7333 2.8092-.7333a3.7579 3.7579 0 0 1 3.1604 1.5802zm-3.7284-2.8918a3.5615 3.5615 0 0 0 .8469-2.22 1.5353 1.5353 0 0 0 -.031-.32 3.5686 3.5686 0 0 0 -2.3445 1.2084 3.4629 3.4629 0 0 0 -.8779 2.1585 1.419 1.419 0 0 0 .031.2892 1.19 1.19 0 0 0 .2169.0207 3.0935 3.0935 0 0 0 2.1586-1.1368z"></path></svg>
+        </a>
+    </h1>
+
+    <div class="menu">
+
+        <a href="">
+            <button class="btn-menu-icon">
+                <span class="menu-line"></span>
+                <span class="menu-line"></span>
+                <span class="menu-line"></span>
+                <span class="menu-line"></span>
+            </button>
+            <button class="btn-menu-text">
+                <span>.Menu.</span>
+            </button>
+        </a>
+
+
+    </div>
+</header>
+
+
+
+<main id="main">
+   
+    <div class="sticky">
+
+        <div class="menu-wrap">
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <a href="">
+                            <div class="number">01.</div>
+                            <div class="name">Introduction</div>
+                            <div class="desc">The Ultimate Theater, Wherever You Are</div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="">
+                            <div class="number">02.</div>
+                            <div class="name">Design</div>
+                            <div class="desc">A New Design For Entertainment</div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="">
+                            <div class="number">03.</div>
+                            <div class="name">Technology</div>
+                            <div class="desc">Inovation of Your Senses</div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="">
+                            <div class="number">04.</div>
+                            <div class="name">Value</div>
+                            <div class="desc">A Century of Excellence</div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="">
+                            <div class="number">05.</div>
+                            <div class="name">Contact</div>
+                        </a>
+                    </li>
+                </ul>
+                <div class="bottom">
+                    <div class="lang">
+                        <a href="">KOREAN</a>
+                        <a href="">ENGLISH</a>
+                    </div>
+                    <div class="policy">
+                        <a href="">Privacy policy</a>
+                        <a href="">Cookie policy</a>
+                    </div>
+                    <div class="copyright">
+                        <a href="">Copyright © 2024 Apple Inc.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="sticky-inner">
+
+            <section class="sc-intro">
+
+                <div class="swiper container main-slide">
+
+                    <ul class="swiper-wrapper intro-slide-list">
+                        <li class="swiper-slide intro-slide-item">
+                            <div class="wrap" data-swiper-parallax-y="100%">
+                                <img src="./assets/images/apple/apple_vision_pro (5).jpg" alt="">
+                                <div class="text">
+                                    <h2 class="slide-title">
+                                        <strong>The Ultimate Theater, Wherever You Are.</strong>
+                                    </h2>
+                                    <div class="desc">
+                                        <span>Entertainment</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide intro-slide-item">
+                            <div class="wrap" data-swiper-parallax-y="100%">
+                                <img src="./assets/images/apple/apple_vision_pro (6).jpg" alt="">
+                                <div class="text">
+                                    <h2 class="slide-title">
+                                        <strong>A Workspace With Infinite Space.</strong>
+                                       
+                                    </h2>
+                                    <div class="desc">
+                                        <span>Productivity</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide intro-slide-item">
+                            <div class="wrap" data-swiper-parallax-y="100%">
+                                <img src="./assets/images/apple/apple_vision_pro (7).png" alt="">
+                                <div class="text">
+                                    <h2 class="slide-title">
+                                        <strong>Share Quality Time
+                                            And Space. </strong>
+                                    </h2>
+                                    <div class="desc">
+                                        <span>Connection</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide intro-slide-item">
+                            <div class="wrap" data-swiper-parallax-y="100%">
+                                <img src="./assets/images/apple/apple_vision_pro (4).jpg" alt="">
+                                <div class="text">
+                                    <h2 class="slide-title">
+                                        <strong>Be In The Moment.</strong><br>
+                                        <strong>All Over Again.</strong>
+                                    </h2>
+                                    <div class="desc">
+                                        <span>Photos and Videos</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide intro-slide-item">
+                            <div class="wrap" data-swiper-parallax-y="100%">
+                                <img src="./assets/images/apple/apple_vision_pro (8).jpg" alt="">
+                                <div class="text">
+                                    <h2 class="slide-title">
+                                        <strong>Do What You Love. Reimagine How
+                                            You Do It.</strong>
+                                    </h2>
+                                    <div class="desc">
+                                        <span>Apps</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                     
+                    </ul>
+
+                    <div class="group-control">
+                        <button class="btn prev">
+                            <img src="https://navapress.com/static/images/arrow-prev.svg" alt="">
+                        </button>
+                        <!-- <button class="btn mode">
+                            <span class="top-left"></span>
+                            <span class="top-right"></span>
+                            <span class="bottom-left"></span>
+                            <span class="bottom-right"></span>
+                        </button> -->
+                        <button class="btn next">
+                            <img src="https://navapress.com/static/images/arrow-next.svg" alt="">
+                        </button>
+                    </div>
+                    <div class="pagination">
+                        <span class="fraction current"></span>
+                        <span class="fraction dot"></span>
+                        <span class="fraction total"></span>
+                    </div>
+
+
+                    
+
+
+                    <button class="btn-scroll">
+                        <span>Scroll to explore</span>
+                    </button>
+                </div>
+
+                <div class="swiper thumb-slide">
+                    <div class="swiper-wrapper">
+                      
+                        <div class="swiper-slide">
+                            <img src="./assets/images/apple/apple_vision_pro (6).jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/images/apple/apple_vision_pro (7).png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/images/apple/apple_vision_pro (4).jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/images/apple/apple_vision_pro (8).jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <!-- <img src="./assets/images/apple/apple_vision_pro (5).jpg" alt=""> -->
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <section class="sc-design">
+                <h2 class="title">
+                    <div class="container">
+                        <span class="word">
+                           <span class="char">A</span>
+                        </span>
+                        <span class="word">
+                            <span class="char">N</span>
+                            <span class="char">e</span>
+                            <span class="char">w</span>
+                        </span>
+                        <span class="word">
+                            <span class="char">D</span>
+                            <span class="char">e</span>
+                            <span class="char">s</span>
+                            <span class="char">i</span>
+                            <span class="char">g</span>
+                            <span class="char">n</span>
+                        </span>
+                        <span class="word">
+                            <span class="char">F</span>
+                            <span class="char">o</span>
+                            <span class="char">r</span>
+                        </span>
+                        <span class="word">
+                            <span class="char">E</span>
+                            <span class="char">n</span>
+                            <span class="char">t</span>
+                            <span class="char">e</span>
+                            <span class="char">r</span>
+                            <span class="char">t</span>
+                            <span class="char">a</span>
+                            <span class="char">i</span>
+                            <span class="char">n</span>
+                            <span class="char">m</span>
+                            <span class="char">e</span>
+                            <span class="char">n</span>
+                            <span class="char">t</span>
+                        </span>
+                    </div>
+                </h2>
+                <div class="content">
+                    <div class="group-text">
+                        <div class="text-top">
+                            <strong class="label">Design</strong>
+                            <h3 class="subtitle">
+                                <span>Designed by Apple.</span>
+                                <i class="underline"></i>
+                            </h3>
+                        </div>
+                        <div class="text-bottom">
+                            <!-- <strong class="label">Materie prime e tecniche innovative</strong> -->
+                            <div class="page-desc">
+                                <div class="desc-left">
+                                    <p>Apple Vision Pro is the result of decades of experience designing high‑performance, mobile, and wearable devices — culminating in the most ambitious product Apple has ever created. Apple Vision Pro integrates incredibly advanced technology into an elegant, compact form, resulting in an amazing experience every time you put it on.</p>
+                                </div>
+                                <div class="desc-right">
+                                    <p> A singular piece of three-dimensionally formed laminated glass acts as an optical surface for the cameras and sensors that view the world. It flows seamlessly into a custom aluminum alloy frame that gently curves to wrap around your face while serving as an attachment point for the Light Seal.</p>
+                                    <button class="btn-more">
+                                        <span>Read more</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+            
+                    </div>
+                    <div class="group-slide">
+                        <ul class="visual1-list">
+                            <li class="visual1-item">
+                                <div class="wrap">
+                                    <span class="add-text">ZEISS Optical Inserts</span>
+                                    <h3 class="slide-title">Front</h3>
+                                    <div class="img-box"><img src="./assets/images/apple/visual (5).jpg" class="img-lense" alt=""></div>
+                                    <p class="desc">A singular piece of three-dimensionally formed laminated glass flows into an aluminum alloy frame.</p>
+                                </div>
+                            </li>
+                            <li class="visual1-item">
+                                <div class="wrap">
+                                    <span class="add-text">Light Seal</span>
+                                    <h3 class="slide-title">Frame</h3>
+                                    <div class="img-box"><img src="./assets/images/apple/visual (2).jpg" class="img-lense" alt=""></div>
+                                    <p class="desc">The Light Seal magnetically attaches to the aluminum alloy frame. It gently flexes to conform to individual face shapes.</p>
+                                </div>
+                            </li>
+                            <li class="visual1-item">
+                                <div class="wrap">
+                                    <span class="add-text">Aluminum‑encased Battery</span>
+                                    <h3 class="slide-title">Power</h3>
+                                    <div class="img-box"><img src="./assets/images/apple/visual (4).jpg" class="img-lense" alt=""></div>
+                                    <p class="desc">The external battery supports up to 2 hours of general use and up to 2.5 hours of video playback.</p>
+                                </div>
+                            </li>
+                            <li class="visual1-item">
+                                <div class="wrap">
+                                    <span class="add-text">Solo Knit Band</span>
+                                    <h3 class="slide-title">Material</h3>
+                                    <div class="img-box"><img src="./assets/images/apple/visual (3).jpg" class="img-lense" alt=""></div>
+                                    <p class="desc">The Dual Loop Band features a pair of adjustable upper and lower straps for a personalized fit.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+            
+                </div>
+            </section>
+            <section class="sc-technology">
+                
+                <div class="container">
+                    <h2 class="title">
+                        <div class="top">
+                            <span class="word">
+                                <span class="char">I</span>
+                                <span class="char">n</span>
+                                <span class="char">n</span>
+                                <span class="char">o</span>
+                                <span class="char">v</span>
+                                <span class="char">a</span>
+                                <span class="char">t</span>
+                                <span class="char">i</span>
+                                <span class="char">o</span>
+                                <span class="char">n</span>
+                            </span>
+                            <span class="word">
+                                <span class="char">o</span>
+                                <span class="char">f</span>
+                            </span>
+                            <span class="word">
+                                <span class="char">Y</span>
+                                <span class="char">o</span>
+                                <span class="char">u</span>
+                                <span class="char">r</span>
+                            </span>
+                           
+                        </div>
+                        <div class="bottom">
+                            <span class="word">
+                                <span class="char">S</span>
+                                <span class="char">e</span>
+                                <span class="char">n</span>
+                                <span class="char">s</span>
+                                <span class="char">e</span>
+                                <span class="char">s</span>
+                            </span>
+                        </div>
+                    </h2>
+                    <div class="group-text">
+                        <h3 class="label">Technology</h3>
+                        <p class="desc">Pushing boundaries from the inside out. Spatial experiences on Apple Vision Pro are only possible through groundbreaking Apple technology. Displays the size of a postage stamp that deliver more pixels than a 4K TV to each eye. Incredible advances in Spatial Audio. A revolutionary dual‑chip design featuring custom Apple silicon. A sophisticated array of cameras and sensors. All the elements work together to create an unprecedented experience you have to see to believe.
+                        </p>
+                        <button class="btn-more">
+                            <span>Read more</span>
+                        </button>
+                    </div>
+                    <ul class="img-list left">
+                        <li class="img-item-big"><img src="./assets/images/apple/story1.gif" alt="" class="img-lense"></li>
+                        <li class="img-item"><img src="./assets/images/apple/visual203.jpg" alt="" class="img-lense"></li>
+                        <li class="img-item"><img src="./assets/images/apple/apple18.jpg" alt="" class="img-lense"></li>
+                        <li class="img-item"><img src="./assets/images/apple/visual206.jpg" alt="" class="img-lense"></li>
+                    </ul>
+                    <ul class="img-list right">
+                        <li class="img-item"><img src="./assets/images/apple/apple07.jpg" alt="" class="img-lense"></li>
+                        <li class="img-item-big"><img src="./assets/images/apple/apple10.jpg" alt="" class="img-lense"></li>
+                        <li class="img-item"><img src="./assets/images/apple/visual209.jpg" alt="" class="img-lense"></li>
+                        <li class="img-item"><img src="./assets/images/apple/visual21.jpg" alt="" class="img-lense"></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="sc-value">
+                <span class="mouse-hover"></span>
+                <h2 class="title">
+                    <div class="container">
+                        <span class="word">
+                            <span class="char">A</span>
+                        </span>
+                        <span class="word">
+                                <span class="char">c</span>
+                                <span class="char">e</span>
+                                <span class="char">n</span>
+                                <span class="char">t</span>
+                                <span class="char">u</span>
+                                <span class="char">r</span>
+                                <span class="char">y</span>
+                            </span>
+                            <span class="word">
+                                <span class="char">o</span>
+                                <span class="char">f</span>
+                            </span>
+                                <span class="word">
+                                <span class="char">e</span>
+                                <span class="char">x</span>
+                                <span class="char">c</span>
+                                <span class="char">e</span>
+                                <span class="char">l</span>
+                                <span class="char">l</span>
+                                <span class="char">e</span>
+                                <span class="char">n</span>
+                                <span class="char">c</span>
+                                <span class="char">e</span>
+                            </span>
+                        </div>
+                </h2>
+                <div class="inner">
+                    <div class="group-text">
+                        <div class="top">
+                            <strong class="label">Values</strong>
+                            <h3 class="subtitle">
+                                <span>Our values lead the way. Apple Vision Pro was designed to help protect your privacy and keep you in control of your data. Its built‑in accessibility features are designed to work the way you do.</span>
+                                <i class="underline"></i>
+                            </h3>
+                         </div>
+                         <div class="bottom">
+                            <strong class="label">Designed to make a difference</strong>
+                            <div class="page-desc">
+                                <div class="desc-left">
+                                    <p>Use Optic ID to authorize purchases and unlock passwords with the uniqueness of your iris. Optic ID data is encrypted, never leaves your device, and is accessible only to the Secure Enclave processor.</p>
+                                    <p>Data from cameras and sensors is processed at the system level, so individual apps do not need to see your surroundings to enable spatial experiences.</p>
+                                    <p>Eye input is not shared with Apple, third-party apps, or websites. Only your final selections are transmitted when you tap your fingers together.</p>
+                                </div>
+                                <div class="desc-right">
+                                    <p>Apple Vision Pro, like all of our products and services, is inclusive by design. That’s why it comes with built-in features like Smart Color Invert, Reduce Transparency Support, Implant Support, and Live Captions — real-time transcriptions of speech, audio, and video content for those who are deaf or hard of hearing.</p>
+                                    <p>Apple Vision Pro contains 100% recycled aluminum in the frame and battery enclosure.</p>
+                                    <button class="btn-more">
+                                        <span>Read more</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-item small">
+                    <img src="./assets/images/apple/story-gif.gif" alt="">
+                </div>
+                <div class="img-item big">
+                    <img src="./assets/images/apple/story-big.webp" alt="">
+                </div>
+              
+            </section>
+            <section class="sc-contact">
+                <h2 class="title">
+                    <div class="inner">
+                        <span class="word">
+                            <span class="char">C</span>
+                            <span class="char">o</span>
+                            <span class="char">n</span>
+                            <span class="char">t</span>
+                            <span class="char">a</span>
+                            <span class="char">c</span>
+                            <span class="char">t</span>
+                        </span>
+                        <span class="word">
+                            <span class="char">u</span>
+                            <span class="char">s</span>
+                        </span>
+                    </div>
+                </h2>
+                <div class="container">
+                    <!-- <div class="col-left">
+                        <form action="" class="form">
+                            <div class="group-form">
+                                <div class="name">
+                                    <input type="text" placeholder="First name">
+                                </div>
+                                <div class="mail">
+                                    <input type="text" placeholder="E-mail">
+                                </div>
+                                <div class="idea">
+                                    <textarea id="text" name="text" required="" placeholder="Write to us"></textarea>                            </div>
+                                <button class="btn-policy">
+                                    <span>I accept the <a href="" class="link">privacy policy</a></span>
+                                </button>
+                                <button class="btn-send"></button>
+                            </div>
+                        </form>
+                    </div> -->
+                    <div class="col-right">
+                        <address class="group-addr">
+                            <ul class="addr-list">
+                                <li class="addr-item">
+                                    <h3 class="addr-title">NEW YORK</h3>
+                                    <a href="tel:+3902252991" class="tel">T +39 02 252 991 </a>
+                                    <a href="milano@apple.com" class="e-mail">newyork@apple.com</a>
+                                </li>
+                                <li class="addr-item">
+                                    <h3 class="addr-title">LOS ANGELES</h3>
+                                    <a href="tel:+3902252991" class="tel">T +39 02 252 991 </a>
+                                    <a href="milano@apple.com" class="e-mail">losangeles@apple.com</a>
+                                </li>
+                                <li class="addr-item">
+                                    <h3 class="addr-title">MILAN</h3>
+                                    <a href="tel:+3902252991" class="tel">T +39 02 252 991 </a>
+                                    <a href="milano@apple.com" class="e-mail">milano@apple.com</a>
+                                </li>
+                                <li class="addr-item">
+                                    <h3 class="addr-title">SHANGHAI</h3>
+                                    <a href="tel:+3902252991" class="tel">T +39 02 252 991 </a>
+                                    <a href="milano@apple.com" class="e-mail">shanghai@apple.com</a>
+                                </li>
+                                <li class="addr-item">
+                                    <h3 class="addr-title">PARIS</h3>
+                                    <a href="tel:+3902252991" class="tel">T +39 02 252 991 </a>
+                                    <a href="milano@apple.com" class="e-mail">paris@apple.com</a>
+                                </li>
+                                <li class="addr-item">
+                                    <h3 class="addr-title">GENEVE</h3>
+                                    <a href="tel:+3902252991" class="tel">T +39 02 252 991 </a>
+                                    <a href="milano@apple.com" class="e-mail">geneve@apple.com</a>
+                                </li>
+                            </ul>
+                        </address>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</main>
+<span class="mouse-hover"></span>
+
+ 
+
+</body>
+</html>

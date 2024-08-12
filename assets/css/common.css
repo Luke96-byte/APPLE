@@ -1,0 +1,115 @@
+.blind {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+  }
+
+  .scroll-hidden{
+    overflow: hidden;
+  }
+
+
+  :root {
+    --black: #000;
+    --chineseBlack: #141414;
+    --white: #fff;
+    --brightGray: #efefef;
+    --spanishGray: #979797;
+    --cultured: #f8f8f8;
+    --sonicSilver: #767676;
+    --lightSilver: #d8d8d8;
+    --clip: 100%;
+    --clip2: 100%;
+    --title--var: 100%;
+    --nextpage: 50%;
+}
+
+body,html {
+    font-family: nava,Helvetica,sans-serif;
+    font-size: 10px
+}
+.title{
+  --word-total: 4;
+  --char-total: 20;
+  --title--var: 100%;
+}
+
+.label{
+  font-size: min(1.75vh,2rem);
+  margin-bottom: 1vh;
+  text-transform: uppercase;
+}
+.subtitle{
+  line-height: 1.1;
+  font-size: 6.5vh;
+  min-width: 90%;
+  padding-bottom: 3vh;
+  position: relative;
+  }
+  .subtitle .underline{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: var(--title--var);
+  height: .1rem;
+  background-color: var(--spanishGray);
+}
+
+.btn-more{
+  opacity: 0;
+  visibility: hidden;
+  position: relative;
+  z-index: 2;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: var(--black);
+  text-align: center;
+  display: inline-block;
+  padding: 1rem 2rem;
+  margin-bottom: 4.7rem;
+  overflow: hidden;
+  transition: color .4s ease-in-out;
+  padding: 2.5rem 2rem;
+  font-size: min(1.85vh,2rem);
+  margin-bottom: 0;
+}
+.img-lense{
+  transition: 0.8s;
+}
+.img-lense:hover{
+  transform: scale(1.1);
+  
+
+}
+
+.mouse-hover.show{
+ opacity: 1;
+ visibility: visible;
+}
+.mouse-hover{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  z-index: 100;
+  pointer-events: none;
+  cursor: none;
+  backdrop-filter: saturate(100%) blur(1px);
+  background: hsla(0, 0%, 64%, .1);
+  z-index: 10;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s,visibility 0.3s;
+  backdrop-filter: saturate(100%) blur(10px);
+  background: hsla(0, 0%, 64%, .2);
+  color: var(--white);
+}
+

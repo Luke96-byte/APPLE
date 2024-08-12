@@ -1,0 +1,8 @@
+
+@font-face {
+    font-family: nava;
+    src: url(/static/fonts/LayGrotesk-Regular.woff2) format("woff2"),url(/static/fonts/LayGrotesk-Regular.woff) format("woff");
+    font-style: normal;
+    font-display: swap
+}
+
