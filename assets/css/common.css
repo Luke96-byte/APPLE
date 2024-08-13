@@ -97,19 +97,16 @@ body,html {
   left: 0;
   width: 150px;
   height: 150px;
-  border-radius: 100%;
-  z-index: 100;
+  border-radius: 50%;
+  z-index: 10;
   pointer-events: none;
   cursor: none;
-  backdrop-filter: saturate(100%) blur(1px);
-  background: hsla(0, 0%, 64%, .1);
-  z-index: 10;
+  backdrop-filter: blur(2px) saturate(150%);
+  background: rgba(255, 255, 255, 0.1); /* Adjust transparency here */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional for depth */
   transform: translate(-50%, -50%);
   visibility: hidden;
   opacity: 0;
-  transition: opacity 0.3s,visibility 0.3s;
-  backdrop-filter: saturate(100%) blur(10px);
-  background: hsla(0, 0%, 64%, .2);
-  color: var(--white);
+  transition: opacity 0.3s, visibility 0.3s;
 }
 
